@@ -17,9 +17,9 @@ void blinks1(int repeats, int time)
 {
   for (int i = 0; i < repeats; i++)
   {
-    digitalWrite(PIN_LED, 1);
-    delay(time);
     digitalWrite(PIN_LED, 0);
+    delay(time);
+    digitalWrite(PIN_LED, 1);
     delay(time);
   }
 }
@@ -28,9 +28,9 @@ void blinks2(int repeats, int time)
 {
   for (int i = 0; i < repeats; i++)
   {
-    digitalWrite(PIN_LED, 1);
-    delay(time);
     digitalWrite(PIN_LED, 0);
+    delay(time);
+    digitalWrite(PIN_LED, 1);
     delay(time);
   }
 }
